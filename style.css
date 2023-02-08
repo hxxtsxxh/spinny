@@ -1,0 +1,52 @@
+* {
+  overflow: hidden;
+  font-family: "Poppins";
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#heading {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  z-index: 100;
+  display: block;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  gap: 10em;
+  width: 100%;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  z-index: 100;
+}
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+#navbar a:hover {
+  color: aqua;
+}
+
+.navbarItems {
+  display: flex;
+  align-items: center;
+}
+.navbarItems a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbarItems a:hover {
+  color: rgb(202, 139, 63);
+}
